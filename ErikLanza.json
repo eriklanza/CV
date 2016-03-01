@@ -1,0 +1,49 @@
+{
+   "firstname":"erik",
+   "lastname":"lanza",
+   "languages":[
+      "spannish",
+      "english"
+   ],
+   "education":{
+      "school":"Turku university of Applied Sciences",
+      "degree":"Bachelor of Engineering in Information Technology",
+      "percentage_completed":"92"
+   },
+   "work_experience":[
+      {
+         "timespan":"03.2015-Ongoing",
+         "place":"FINCODA",
+         "country":"Finland",
+         "task":"UX and UI design and implementation. Laravel, jQuery, Bootstrap, Sass, HTML(5)."
+      },
+      {
+         "timespan":"09.2015-11.2015",
+         "place":"Geosmart city",
+         "country":"Finland",
+         "task":"Web application development. HTML(5), SASS, bootstrap, jQuery, Twig and CSS media queries."
+      }
+   ],
+   "skills":[
+      {
+         "tool":"illustrator",
+         "rating":4
+      },
+      {
+         "tool":"photoshop",
+         "rating":3
+      },
+      {
+         "tool":"html",
+         "rating":4
+      },
+      {
+         "tool":"css",
+         "rating":4
+      },
+      {
+         "tool":"jquery",
+         "rating":3
+      }
+   ]
+}
