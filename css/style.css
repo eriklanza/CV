@@ -1,2 +1,2 @@
-body{background-color:#2E2E2E}.align{text-align:center}.row{color:#fff}.headings{color:#75C5BD}.margintop{margin-top:40px}.marginbottom{margin-bottom:50px}
+body{background-color:#2E2E2E;font-family:"Roboto",sans-serif}.align{text-align:center}.row{color:#fff}.headings{color:#75C5BD;font-family:"Raleway",sans-serif}.margintop{margin-top:40px}.marginbottom{margin-bottom:50px}.line{border-left:solid;border-width:1px}.normal{margin:0px}.rating{margin:0px;color:#75C5BD;font-size:20px;font-family:"Indie Flower",cursive}@media (max-width: 991px){.line{border-left:none;border-width:0px}}
 /*# sourceMappingURL=style.css.map */
