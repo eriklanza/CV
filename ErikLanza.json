@@ -2,8 +2,8 @@
    "firstname":"erik",
    "lastname":"lanza",
    "languages":[
-      "spannish",
-      "english"
+      "Spanish",
+      "English"
    ],
    "education":{
       "school":"Turku university of Applied Sciences",
@@ -26,23 +26,23 @@
    ],
    "skills":[
       {
-         "tool":"illustrator",
+         "tool":"Illustrator",
          "rating":4
       },
       {
-         "tool":"photoshop",
+         "tool":"Photoshop",
          "rating":3
       },
       {
-         "tool":"html",
+         "tool":"HTML",
          "rating":4
       },
       {
-         "tool":"css",
+         "tool":"CSS",
          "rating":4
       },
       {
-         "tool":"jquery",
+         "tool":"jQuery",
          "rating":3
       }
    ]
