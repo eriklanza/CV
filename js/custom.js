@@ -18,17 +18,17 @@ $(document).ready(function() {
         });
 
         $(skillsData).each(function(index, value){
-            $skillsDiv.after('<div class="row"><div class="col-md-6 normal extra-margin">' + value.tool +'</div> <div class="col-md-6 rating"> ' + stars(value.rating) + '</div></div>');
+            $skillsDiv.after('<div class="row"><div class="col-md-6 normal extra-margin">' + value.tool + '</div> <div class="col-md-6 rating"> ' +  getStarsString(value.rating)  + '</div></div>');
         });
 
         $('#languages h2').after('<p>' + data.languages[0] + ' | ' + data.languages[1] + '</p>');
         /* generating the star ratings*/
-        function stars (num){
+        function getStarsString (n){
             var number, remainingStars, starsNumber, rating;
-            number = parseInt(num);
-            remainder = 5-number;
-            starsNumber = '<i class="fa fa-star"></i>' .repeat(number);
-            remainingStars = '<i class="fa fa-star-o"></i>' .repeat(remainder);
+            number = parseInt(n);
+            remainder = 5 - number;
+            starsNumber = '<i class="fa fa-star"></i>'.repeat(number);
+            remainingStars = '<i class="fa fa-star-o"></i>'.repeat(remainder);
             rating = starsNumber + remainingStars;
             return rating;
         }
